@@ -1,0 +1,15 @@
+### ### ### auth route
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "username": "60160xxx",
+    "password": "xxxxx"
+}
+
+### ### ### auth route
+GET http://localhost:3000/test
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjYwMTYwMDI3IiwiaWF0IjoxNjA4MDUxMzI1fQ.S4C4sgTRGrU0faQt6i7e6Y4waO4qKbtxU1gAZO7oT3U
+
+
